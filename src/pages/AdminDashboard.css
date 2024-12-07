@@ -1,0 +1,67 @@
+/* AdminDashboard.css */
+
+/* Container for the admin dashboard */
+.admin-dashboard-container {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading style for the dashboard */
+.admin-dashboard-header {
+    color: #333;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+/* Card container for displaying dashboard information */
+.dashboard-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for the dashboard cards */
+.dashboard-card:hover {
+    transform: scale(1.05);
+}
+
+/* Title for each card */
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+/* Description under the card title */
+.card-description {
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Button to navigate or interact within the dashboard */
+.dashboard-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the dashboard button */
+.dashboard-button:hover {
+    background-color: #0056b3;
+}
